@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  property: one
+  description: MyText
+  task_type: MyString
+  assigned_person: MyString
+  status: MyString
+  date: 2025-10-20
+
+two:
+  property: two
+  description: MyText
+  task_type: MyString
+  assigned_person: MyString
+  status: MyString
+  date: 2025-10-20
