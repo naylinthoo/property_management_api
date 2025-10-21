@@ -17,7 +17,6 @@ class Property < ApplicationRecord
 
   def create_notion_page
     response = NotionService.create_property(self)
-    debugger
     update_column(:notion_page_id, response['id']) if response['id']
   end
 
