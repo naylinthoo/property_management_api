@@ -18,6 +18,17 @@ bundle install
 rails s
 ```
 
+### Nodejs Backend
+
+```
+yarn install
+```
+
+```
+node server.js
+```
+
+
 ### Frontend
 
 Please install yarn using node before this setup.
